@@ -1,0 +1,82 @@
+
+.container{
+  width: 85%;
+  background: #fff;
+  border-radius: 6px;
+  margin: auto;
+  padding: 60px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+}
+.heading
+{
+  text-align: center;
+  & h1{
+    font-size: 35px;
+    font-weight: 900;
+  }
+}
+.intro
+{
+  & h2
+  {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  & i
+  {
+    color: rgb(41, 7, 236);
+  }
+  & h3
+  {
+    color: rgb(104, 206, 192);
+  }
+  width: 25%;
+  text-align: center;
+  border-right: 1px solid blueviolet;
+
+}
+.contact{
+  width: 70%;
+  background: #fff;
+  border-radius: 6px;
+  margin-left: 2%;
+  padding: 40px 10px 10px 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  text-align: center;
+}
+
+.contact form input
+{
+  margin: 20px;
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  width: 400px;
+  font-size: 16px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+input[type=text]:focus, input[type=email]:focus, input[type=number]:focus{
+  outline: 2px solid rgb(75, 221, 160);
+}
+textarea
+{
+  outline: none;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  width: 845px;
+  border-radius: 10px;
+  height: 300px;
+  padding: 30px;
+  font-size: 20px;
+  color: rgb(110, 32, 184);
+  &::placeholder{
+    color: rgb(201, 129, 20);
+  }
+}
+input[type=text]::placeholder, input[type=email]::placeholder, input[type=number]::placeholder
+{
+  color: rgb(201, 129, 20);
+}
+

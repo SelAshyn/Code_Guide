@@ -9,7 +9,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "CodeGuide",
+    default: "Code for Future - CodeGuide",
     template: "%s | CodeGuide",
   },
   description: 'By SelAshyn',
@@ -43,7 +43,7 @@ export default function RootLayout({
               <h1><Link href="/"><Image src="/img.png" width={50} height={100} /></Link><Link href="" className="log1"><Image src="/img2.png" width={100} height={50} /></Link></h1>
             </div>
             <ul>
-              <li><a href="./index.html">Home</a></li>
+              <li><a href="/">Home</a></li>
               <li><a href="./HTML/index.html">HTML</a></li>
               <li><a href="./Coming/index.html">CSS</a></li> 
               <li><a href="./Coming/index.html">JavaScript</a></li>
@@ -54,12 +54,12 @@ export default function RootLayout({
               </ul>
           </nav>
         </div>
-        <br /><br />
+        <br />
         
         {children}
 
         <footer>
-            <div className="container">
+            <div className="container1">
                <div className="row">
                             <div className="footer-col">
                               <h4>company</h4>

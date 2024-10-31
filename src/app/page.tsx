@@ -2,6 +2,11 @@ import { Bebas_Neue, Arima } from 'next/font/google';
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "./styleh.css";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Home | CodeGuide",
+}
 
 const bebas_neue = Bebas_Neue({
   subsets: ['latin'],
@@ -59,7 +64,7 @@ export default function Home(){
                                         
                                         <h3>Get in Touch</h3>
                                         <p>Learn how to create a mobile app using Java. This course covers everything from user interface design to mobile app testing.</p><br />
-                                        <a href="./Coming/index.html" className="btn">Contact Us</a>
+                                        <a href="/contact" className="btn">Contact Us</a>
                                     </div>
                             
                             
