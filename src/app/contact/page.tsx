@@ -2,6 +2,7 @@ import "./style.css";
 import { Metadata } from 'next';
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { Bebas_Neue, Arima, Lora } from 'next/font/google';
+import Link from "next/link";
 
 const lora = Lora({
   subsets: ['latin'],
@@ -45,14 +46,15 @@ export default function Contact(){
         <center><hr className="w-40 content-center h-1 bg-gray-100 border-0 rounded md:my-2 dark:bg-blue-900" /></center>
         </div>
         <br />
-            <form action="" method="post" style={arima.style}>
-              <input type="text" name="" id="" placeholder="First Name" />
-              <input type="text" name="" id="" placeholder="Last Name" />
+            <form action="./" method="get" style={arima.style}>
+              <input type="text" name="" id="" placeholder="First Name"  required />
+              <input type="text" name="" id="" placeholder="Last Name" required/>
               <br />
-              <input type="email" name="" id="" placeholder="E-mail"/>
-              <input type="number" name="" id="" placeholder="Phone No." />
+              <input type="email" name="" id="" placeholder="E-mail" required/>
+              <input type="number" name="" id="" placeholder="Phone No."  required/>
               <br />
-              <textarea name="" id="" placeholder="Enter Message"/>
+              <textarea name="" id="" placeholder="Enter Message" required/><br /><br />
+              <button><Link className="Btn" href="">Submit</Link></button>
             </form>
           </div>
         </div>
