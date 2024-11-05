@@ -64,7 +64,7 @@ export default function Home(){
                                         
                                         <h3>Get in Touch</h3>
                                         <p>Learn how to create a mobile app using Java. This course covers everything from user interface design to mobile app testing.</p><br />
-                                        <a href="contact/" className="btn">Contact Us</a>
+                                        <a href="contact" className="btn">Contact Us</a>
                                     </div>
                             
                             
