@@ -27,7 +27,7 @@ export default function Home(){
         <div className="main">
           <div className="text">
               <h1 style={bebas_neue.style} className='text-6xl text-yellow-300'><Link className='text-emerald-950' href="/">CODEGUIDE</Link> <br /> BEST PATHWAY FOR DEVELOPER'S</h1> <br />
-              <h3 className='text-xl'>Welcome to CodeGuide - your guide to the world of coding! Here you'll find a comprehensive set of courses that will teach you everything you need to know about HTML, CSS, Java, and Python. With our expert tutors and unique learning methods, you'll be well on your way to mastering the art of coding.</h3>
+              <h3 className='text-xl' >Welcome to CodeGuide - your guide to the world of coding! Here you'll find a comprehensive set of courses that will teach you everything you need to know about HTML, CSS, Java, and Python. With our expert tutors and unique learning methods, you'll be well on your way to mastering the art of coding.</h3>
           </div>
         </div>
         <br /><br /><br /><br />

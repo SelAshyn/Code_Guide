@@ -53,7 +53,7 @@ export default function Contact(){
               <input type="email" name="" id="" placeholder="E-mail" required/>
               <input type="number" name="" id="" placeholder="Phone No."  required/>
               <br />
-              <textarea name="" id="" placeholder="Enter Message" required/><br /><br />
+              <textarea name="" id="" placeholder="Enter Message" required/><br />
               <button><Link className="Btn" href="">Submit</Link></button>
             </form>
           </div>
