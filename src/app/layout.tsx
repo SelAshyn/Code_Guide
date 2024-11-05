@@ -33,7 +33,7 @@ export default function RootLayout({
   return (
     <html>
       <head>
-      <link rel="icon" href="/img.png" sizes="any" />
+      <link rel="icon" href="https://raw.githubusercontent.com/SelAshyn/Code_Guide/refs/heads/master/public/img.png" sizes="any" />
       </head>
       <body>
 
