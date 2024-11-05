@@ -14,3 +14,24 @@ I aim to build a career that allows me to leverage technology to solve real-worl
 ---
 
 Thank you for stopping by my profile! If you’d like to connect, feel free to reach out.
+
+## Technical Skills
+
+I am proficient in several technologies and constantly expanding my skill set. Here are some of the core skills I bring to my work:
+
+- **Languages**: Python, JavaScript, Typescript, Kotlin
+- **Frameworks/Libraries**: React, Node.js, Django, etc.
+- **Tools & Platforms**: Git, Docker, AWS,, etc.
+- **Database Management**: MySQL, MongoDB, PostgreSQL
+
+## Learning Goals
+
+I'm currently focused on developing deeper expertise in:
+
+- **Cloud Computing**: Learning to deploy and manage applications on AWS and Azure.
+- **Data Science & Machine Learning**: Working on projects that use Python for data analysis and machine learning.
+- **DevOps**: Exploring CI/CD processes to enhance software delivery workflows.
+
+---
+
+These goals align with my mission to continually grow and take on new challenges!
