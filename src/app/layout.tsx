@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import "./globals.css";
-import { Agdasima, Arima } from 'next/font/google';
+import { Arima, Kanit } from 'next/font/google';
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 
@@ -15,10 +15,10 @@ export const metadata: Metadata = {
   description: 'By SelAshyn',
 }
 
-const agdasima = Agdasima({
-  subsets: ['latin'],
-  weight: '700',  
-});
+const kanit = Kanit({
+ subsets: ["latin"],
+ weight: '400',
+})
 
 const arima = Arima({
   subsets: ['greek'],
@@ -44,25 +44,23 @@ export default function RootLayout({
             </div>
             <ul>
               <li><a href="/">Home</a></li>
-              <li><a href="./HTML/index.html">HTML</a></li>
-              <li><a href="./Coming/index.html">CSS</a></li> 
-              <li><a href="./Coming/index.html">JavaScript</a></li>
-              <li><a href="./Coming/index.html">Python</a></li>
               <li><a href="./Coming/index.html">Courses</a></li>
               <li><a href="./Coming/index.html">About Us</a></li>
-              <li><a href="./Sign In/index.html" className="sign">Sign In</a></li>
+              
               </ul>
+              <a href="./Sign In/index.html" className="sign">Sign In</a>
           </nav>
         </div>
         <br />
         
         {children}
 
+        <center>
         <footer>
-            <div className="container1">
+            <div className="container1" style={kanit.style}>
                <div className="row">
                             <div className="footer-col">
-                              <h4>company</h4>
+                              <h4>Company</h4>
                               <ul>
                                 <li><Link href="#">about us</Link></li>
                                 <li><Link href="#">our services</Link></li>
@@ -71,22 +69,22 @@ export default function RootLayout({
                               </ul>
                             </div>
                             <div className="footer-col">
-                              <h4>get help</h4>
+                              <h4>Courses / Packages</h4>
                               <ul>
-                                <li><Link href="#">FAQ</Link></li>
-                                <li><Link href="#">shipping</Link></li>
-                                <li><Link href="#">returns</Link></li>
-                                <li><Link href="#">order status</Link></li>
-                                <li><Link href="#">payment options</Link></li>
+                                <li><Link href="#">HTML / CSS</Link></li>
+                                <li><Link href="#">Python</Link></li>
+                                <li><Link href="#">Javascript</Link></li>
+                                <li><Link href="#">React JS</Link></li>
+                                <li><Link href="#">Beginners Package</Link></li>
                               </ul>
                             </div>
                             <div className="footer-col">
-                              <h4>online shop</h4>
+                              <h4>Get Help</h4>
                               <ul>
-                                <li><Link href="#">watch</Link></li>
-                                <li><Link href="#">bag</Link></li>
-                                <li><Link href="#">shoes</Link></li>
-                                <li><Link href="#">dress</Link></li>
+                                <li><Link href="#">FAQ's</Link></li>
+                                <li><Link href="#">About Us</Link></li>
+                                <li><Link href="#">Contact</Link></li>
+                                <li><Link href="#">Our Team</Link></li>
                               </ul>
                             </div>
                             <div className="footer-col">
@@ -105,7 +103,7 @@ export default function RootLayout({
                       </div>
                     
         </footer>
-
+        </center>
       </body>
     </html>
 
