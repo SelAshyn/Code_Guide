@@ -28,7 +28,7 @@ export default function Contact(){
           <div className="intro" style={lora.style}>
             <br /><br />
             <i className="bi bi-geo-alt-fill"/>
-            <h2>Address </h2>
+            <h2>Address</h2>
             <h3>Kathmandu, Nepal <br /> Kapan, Baluwakhani</h3>
             <br /><br />
             <i className="bi bi-telephone-fill"></i>
