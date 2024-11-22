@@ -40,7 +40,7 @@ export default function RootLayout({
         <div className="whole">
           <nav className={arima.className}>
             <div className="logo">
-              <h1><Link href="/"><img src="https://raw.githubusercontent.com/SelAshyn/Code_Guide/refs/heads/master/public/img.png" width={50} height={100} alt="Logo" /></Link><Link href="" className="log1"><img src="https://raw.githubusercontent.com/SelAshyn/Code_Guide/refs/heads/master/public/img2.png" width={140} height={110} alt="Logo" className="log2"/></Link></h1>
+              <h1><Link href="/"><img src="https://raw.githubusercontent.com/SelAshyn/Code_Guide/refs/heads/master/public/img.png" width={50} height={100} alt="Logo" /></Link><Link href="/" className="log1"><img src="https://raw.githubusercontent.com/SelAshyn/Code_Guide/refs/heads/master/public/img2.png" width={140} height={110} alt="Logo" className="log2"/></Link></h1>
             </div>
             <ul>
               <li><a href="/">Home</a></li>
@@ -83,7 +83,7 @@ export default function RootLayout({
                               <ul>
                                 <li><Link href="#">FAQ's</Link></li>
                                 <li><Link href="#">About Us</Link></li>
-                                <li><Link href="#">Contact</Link></li>
+                                <li><Link href="contact">Contact</Link></li>
                                 <li><Link href="#">Our Team</Link></li>
                               </ul>
                             </div>
