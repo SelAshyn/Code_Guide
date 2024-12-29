@@ -105,7 +105,7 @@ text-transform: capitalize;
 text-transform: uppercase;
 opacity: .6;
 font-weight: 200;
-color: rgb(0, 255, 221);
+color: rgb(247, 0, 0);
 }
 
 
@@ -177,6 +177,7 @@ nav ul li {
 nav ul li a {
   display: block;
   padding: 5px;
+  padding-right: 15px;
   color: #000000;
   text-decoration: none;
   font-size: 18px;

@@ -14,6 +14,11 @@ const arima = Arima({
   weight: '400',
 })
 
+const bebas_neue = Bebas_Neue({
+  subsets: ['latin'],
+  weight: '400',  
+});
+
 
 
 export const metadata: Metadata = {
@@ -23,41 +28,56 @@ export const metadata: Metadata = {
 export default function Contact(){
   return(
     <>
-    <div className="container">
-        <br /><br /><br />
-          <div className="intro" style={lora.style}>
-            <br /><br />
-            <i className="bi bi-geo-alt-fill"/>
-            <h2>Address</h2>
-            <h3>Kathmandu, Nepal <br /> Kapan, Baluwakhani</h3>
-            <br /><br />
-            <i className="bi bi-telephone-fill"></i>
-            <h2>Phone</h2>
-            <h3>+977 9864334657 <br /> +977 9851356824</h3>
-            <br /><br />
-            <i className="bi bi-envelope-fill"></i>
-            <h2>Email</h2>
-            <h3> ourcompany@gmail.com <br />ourcompany2@gmail.com</h3>
-            <br /><br />  
-          </div>
-          <div className="contact">
-          <div className="heading" style={arima.style}>
-        <h1>Contact Us</h1>
-        <center><hr className="w-40 content-center h-1 bg-gray-100 border-0 rounded md:my-2 dark:bg-blue-900" /></center>
+    <center>
+      <div className="container">
+  <div className="content">
+    <div className="left-side">
+      <div className="address details">
+        <i className="bi bi-geo-alt-fill" />
+        <div className="topic">Address</div>
+        <div className="text-one">Surkhet, NP12</div>
+        <div className="text-two">Birendranagar 06</div>
+      </div>
+      <div className="phone details">
+        <i className="bi bi-telephone-fill" />
+        <div className="topic">Phone</div>
+        <div className="text-one">+0098 9893 5647</div>
+        <div className="text-two">+0096 3434 5678</div>
+      </div>
+      <div className="email details">
+        <i className="bi bi-envelope-fill" />
+        <div className="topic">Email</div>
+        <div className="text-one">codinglab@gmail.com</div>
+        <div className="text-two">info.codinglab@gmail.com</div>
+      </div>
+    </div>
+    <div className="right-side">
+      <div className="topic-text"><h1 style={bebas_neue.style}>Send us a message</h1></div>
+      <p>
+        If you have any work from me or any types of quries related to my
+        tutorial, you can send me message from here. It's my pleasure to help
+        you.
+      </p>
+      <br />
+      <form action="#">
+        <div className="input-box">
+          <input type="text" placeholder="Enter your name" />
         </div>
-        <br />
-            <form action="./" method="get" style={arima.style}>
-              <input type="text" name="" id="" placeholder="First Name"  required />
-              <input type="text" name="" id="" placeholder="Last Name" required/>
-              <br />
-              <input type="email" name="" id="" placeholder="E-mail" required/>
-              <input type="number" name="" id="" placeholder="Phone No."  required/>
-              <br />
-              <textarea name="" id="" placeholder="Enter Message" required/><br />
-              <button><Link className="Btn" href="">Submit</Link></button>
-            </form>
-          </div>
+        <div className="input-box">
+          <input type="text" placeholder="Enter your email" />
         </div>
+        <div className="input-box message-box">
+          <textarea placeholder="Enter your message" />
+        </div>
+        <div className="button">
+          <input type="button" value="Send Now" />
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</center>
+
     </>
   )
 }

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const bebas_neue = Bebas_Neue({
   subsets: ['latin'],
   weight: '400',  
-});
+}); 
 
 const arima = Arima({
   subsets: ['greek'],
