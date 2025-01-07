@@ -35,8 +35,8 @@ export default function Contact(){
       <div className="address details">
         <i className="bi bi-geo-alt-fill" />
         <div className="topic">Address</div>
-        <div className="text-one">Surkhet, NP12</div>
-        <div className="text-two">Birendranagar 06</div>
+        <div className="text-one">Baluwakhani, Kathmandu</div>
+        <div className="text-two">Nepal</div>
       </div>
       <div className="phone details">
         <i className="bi bi-telephone-fill" />
