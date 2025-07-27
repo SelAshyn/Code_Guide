@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import Link from "next/link";
 import Image from "next/image";
 import "./globals.css";
 import { Arima, Kanit } from 'next/font/google';
@@ -40,7 +39,7 @@ export default function RootLayout({
         <div className="whole">
           <nav className={arima.className}>
             <div className="logo">
-              <h1><Link href="/"><img src="https://raw.githubusercontent.com/SelAshyn/Code_Guide/refs/heads/master/public/img.png" width={50} height={100} alt="Logo" /></Link><Link href="/" className="log1"><img src="https://raw.githubusercontent.com/SelAshyn/Code_Guide/refs/heads/master/public/img2.png" width={140} height={110} alt="Logo" className="log2"/></Link></h1>
+              <h1><a href="/"><img src="https://raw.githubusercontent.com/SelAshyn/Code_Guide/refs/heads/master/public/img.png" width={50} height={100} alt="Logo" /></a><a href="/" className="log1"><img src="https://raw.githubusercontent.com/SelAshyn/Code_Guide/refs/heads/master/public/img2.png" width={140} height={110} alt="Logo" className="log2"/></a></h1>
             </div>
             <ul>
               <li><a href="/">Home</a></li>
@@ -55,45 +54,44 @@ export default function RootLayout({
         
         {children}
 
-        <center>
         <footer>
             <div className="container1" style={kanit.style}>
                <div className="row">
                             <div className="footer-col">
                               <h4>Company</h4>
                               <ul>
-                                <li><Link href="#">about us</Link></li>
-                                <li><Link href="#">our services</Link></li>
-                                <li><Link href="#">privacy policy</Link></li>
-                                <li><Link href="#">affiliate program</Link></li>
+                                <li><a href="#">about us</a></li>
+                                <li><a href="#">our services</a></li>
+                                <li><a href="#">privacy policy</a></li>
+                                <li><a href="#">affiliate program</a></li>
                               </ul>
                             </div>
                             <div className="footer-col">
                               <h4>Courses / Packages</h4>
                               <ul>
-                                <li><Link href="#">HTML / CSS</Link></li>
-                                <li><Link href="#">Python</Link></li>
-                                <li><Link href="#">Javascript</Link></li>
-                                <li><Link href="#">React JS</Link></li>
-                                <li><Link href="#">Beginners Package</Link></li>
+                                <li><a href="#">HTML / CSS</a></li>
+                                <li><a href="#">Python</a></li>
+                                <li><a href="#">Javascript</a></li>
+                                <li><a href="#">React JS</a></li>
+                                <li><a href="#">Beginners Package</a></li>
                               </ul>
                             </div>
                             <div className="footer-col">
                               <h4>Get Help</h4>
                               <ul>
-                                <li><Link href="#">FAQ's</Link></li>
-                                <li><Link href="#">About Us</Link></li>
-                                <li><Link href="contact">Contact</Link></li>
-                                <li><Link href="#">Our Team</Link></li>
+                                <li><a href="#">FAQ's</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="contact">Contact</a></li>
+                                <li><a href="#">Our Team</a></li>
                               </ul>
                             </div>
                             <div className="footer-col">
                               <h4>follow us</h4>
                               <div className="social-links">
-                                <Link href="#"><i className="bi bi-facebook"></i></Link>
-                                <Link href="#"><i className="bi bi-twitter"></i></Link>
-                                <Link href="#"><i className="bi bi-instagram"></i></Link>
-                                <Link href="#"><i className="bi bi-linkedin"></i></Link>
+                                <a href="#"><i className="bi bi-facebook"></i></a>
+                                <a href="#"><i className="bi bi-twitter"></i></a>
+                                <a href="#"><i className="bi bi-instagram"></i></a>
+                                <a href="#"><i className="bi bi-linkedin"></i></a>
                               </div>
                             </div>
                           </div>
@@ -103,7 +101,6 @@ export default function RootLayout({
                       </div>
                     
         </footer>
-        </center>
       </body>
     </html>
 
